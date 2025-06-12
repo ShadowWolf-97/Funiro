@@ -1,2 +1,2 @@
 # Funiro
-an example single-page website on getting bettet at github and the advantages of it, along with pair work😎
+A website from Shine Htet Aung And Min Htet Aung! To get better and using GitHub and getting to know more and revising HTML and CSS Skills!
