@@ -1,2 +1,2 @@
 # Funiro
-an example single-page website on getting bettet at github and the advantages of it, along with pair work😎
+This Branch for Both Shine Htet Aung And Min Htet Aung to copy the essential parts of the project, or "Hero Section" such as the navigation bar, the footer and the log image, too!
