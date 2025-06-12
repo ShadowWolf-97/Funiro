@@ -69,7 +69,25 @@ nav ul li a:hover {
     font-size: 40px;   
 }
 
-.products .gallery {
+.products gallery {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+.products .gallery .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* .products .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -83,7 +101,7 @@ nav ul li a:hover {
 .products .gallery .item {
     max-width: 200px;
     max-height: 175px;
-    /* flex: 2; */
+    /* flex: 2; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,4 +126,5 @@ nav ul li a:hover {
     align-items: space-around;
     gap: 5px;
     width: 100%;
-}
+} */
+
