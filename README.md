@@ -1,2 +1,2 @@
 # Funiro
-an example website on getting bettet at github and the advantages of it, along with pair work😎
+This Is where you'll find the works of Shine Htet Aung!
