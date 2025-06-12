@@ -24,6 +24,7 @@ nav h1 {
     align-items: center;
     justify-self: center;
     gap: 3px;
+    user-select: none;
 }
 
 nav h1 img {
@@ -39,17 +40,17 @@ nav ul {
 }
 
 nav .icons {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 nav ul li a {
     cursor: pointer;
-    transition: ease-in-out 0.3s;
     text-decoration: none;
     color: #ffd700;
     transition: ease-in-out 0.3s;
+    user-select: none;
 }
 
 nav ul li a:hover {
-    color: whitesmoke;
+    text-decoration: dashed underline;
 }
