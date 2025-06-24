@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <h1>Section A - Multiple Choice</h1>
+    <p>1. C</p>
+    <p>2. B</p>
+    <p>3. B</p>
+    <p>4. C</p>
+    <p>5. B</p>
+    <p>6. C</p>
+    <p>7. B</p>
+    <p>8. A</p>
+    <p>9. A</p>
+    <p>10.B </p>
+    <br>
+    <hr>
+
+
+    <h1>Section B - Short Answer</h1>
+    <p>11. Inline uses the style attribute, Internal uses the style tag, and External uses the .css file and uses the link tag to connect with html file(s).</p>
+    <p>12. footer, header and nav tags.</p>
+    <p>13. To make the website more better, add background color and more.</p>
+    <p>14. Div tag is used to group elements together, and Section tag doesn't.</p>
+    <p>15. Use display flex, change justify content to center and add align items center.</p>
+    <br>
+    <hr>
+
+
+    <h1>Section C - Practical HTML/CSS Code Writing</h1>
+    <div class="writing-part">
+        <nav class="nav-bar">
+            <div class="title">
+                <p class="title">About Me</p>
+            </div>
+
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="background">
+            <h1>Min Htet Aung</h1>
+            <h3>Web Developer</h3>   
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Welcome to my personal website! I am a passionate web developer with a keen interest in creating dynamic and user-friendly web applications. Feel free to explore my work and get in touch!</p>        
+        </div>
+
+        <div class="column-part">
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>Scratch</li>
+                    <li>MIT APP Inventor</li>
+                </ul>
+            </div>
+
+            <img class="skill-image" src="coding.jpg" alt="No Image Found">
+        </div>
+
+        <form action="password">
+            <div class="form">
+                <h2>Register To Contact Me</h2>
+                <div class="username">
+                    <label for="name">Usename:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="password">
+                    <label for="psw">Password:</label>
+                    <input type="password" id="psw" name="password" required>
+                </div>
+
+                <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="male" required>Male
+                    <input type="radio" id="gender" name="female" required>Female
+                    <input type="radio" id="gender" name="others" required>Others
+                </div>
+
+                <div class="country">
+                    <label for="country">Country:</label>
+                    <select name="countries" id="country">
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+                </div>
+                
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required style="width: 300px; height: 200px;"></textarea>
+
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Min Htet Aung. All rights reserved.</p>
+            <p>Follow me on:
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
