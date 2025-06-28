@@ -1,0 +1,233 @@
+/* This css file is extremely buggged out, this was meant for the Home Page's Second Flex Gallery, 
+But it didn't turn out well, im not going to commit this into our "Home Page" Branch */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    background-color: #000000;
+    font-size: 24px;
+    height: 70px;
+}
+
+
+nav h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffd700;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 3px;
+    user-select: none;
+}
+
+nav h1 img {
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav .icons {
+    font-size: 30px;
+}
+
+nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffd700;
+    transition: ease-in-out 0.3s;
+    user-select: none;
+}
+
+nav ul li a:hover {
+    text-decoration: dashed underline;
+}
+
+.products,
+.latest {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.products h1,
+.latest h1 {
+    font-size: 2rem;
+}
+
+.products .gallery,
+.latest .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.products .gallery .item,
+.latest .gallery .item {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+}
+
+.products .gallery .item:hover img,
+.products .gallery .item:hover .text {
+    filter: brightness(0.5);
+}
+
+.products .gallery .item  img,
+.latest .gallery .item img {
+    width: 250px;
+    height: 280px;
+}
+
+.products .gallery .item .text {
+    background-color: whitesmoke;
+    padding: 5px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 5px;
+    width: 100%;
+    height: 125px;
+}
+
+.latest .gallery .item h2 {
+    margin-top: 15px;
+}
+
+.products .gallery .item .text h4 {
+    color: gray;
+}
+
+.products .gallery .item .text p {
+    color: black;
+    font-size: 1.2rem;
+    color: rgb(32, 32, 32);
+}
+
+.products .gallery .item button {
+    display: none;
+}
+
+.products .gallery .item:hover button {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    color: #ffd700;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: white;
+    border: 3px solid #ffd700;
+    border-radius: 2px;
+    z-index: 5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    color: #ffd700;
+    padding: 10px 60px;
+}
+
+footer .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+}
+
+footer .part1 div {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .part1 div ul {
+    list-style: none;
+}
+
+footer .part1 div ul li a {
+    text-decoration: none;
+    color: #ffd700;
+    line-height: 35px;
+    transition: ease-in-out 0.5s;
+}
+
+footer .part1 div ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .part1 .address {
+    gap: 10px;
+    margin-right: 200px;
+}
+
+footer .part1 .address p {
+    width: 250px;
+    line-height: 22.5px;
+}
+
+footer .part1 .address h1 {
+    width: 250px;
+}
+
+footer .part1 .payment-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .part1 .payment-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+footer .part1 .payment-info div i {
+    font-size: 25px;
+}
+
+footer hr {
+    width: 100%;
+    border-color: #ffd700;
+}
+
+footer .part2 p {
+    font-size: small;
+}

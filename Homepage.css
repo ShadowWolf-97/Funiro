@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: gold;
+    height: fit-content;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    background-color: #000000;
+    font-size: 24px;
+    height: 70px;
+}
+
+
+nav h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffd700;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 3px;
+    user-select: none;
+}
+
+nav h1 img {
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav .icons {
+    font-size: 30px;
+}
+
+nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffd700;
+    transition: ease-in-out 0.3s;
+    user-select: none;
+}
+
+nav ul li a:hover {
+    text-decoration: dashed underline;
+}
+
+.hero{
+    background: url(images/GalleryImage1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 89.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content a{
+    margin-top: 20px;
+    background-color: black;
+    color: gold;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-about{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.home-about-image{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background: url(images/AboutImage.jpg);
+    background-size: cover;
+    background-position-y: -400px;
+}
+
+.home-about-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.home-about-text h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.home-about-text a{
+    margin-top: 30px;
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 25px;
+}
